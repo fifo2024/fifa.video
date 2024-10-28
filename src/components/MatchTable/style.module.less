@@ -1,0 +1,40 @@
+.match {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        padding: 16px;
+        font-size: 20px;
+        background: #0586ff;
+        border-radius: 8px 8px 0 0;
+        color: #ffffff;
+    }
+
+    .vs {
+        display: flex;
+        flex-direction: column;
+        padding: 4px 16px;
+        border-radius: 0 0 4px 4px;
+        background: #e6f4ff;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #bae0ff;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 140px 120px 140px;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+    }
+}

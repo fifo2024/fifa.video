@@ -1,0 +1,32 @@
+.logo {
+    display: flex;
+    padding-right: 48px;
+
+    & img {
+        height: 40px;
+    }
+}
+
+.league {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px 0 8px;
+
+    &Item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px 0;
+        margin: 0 24px 16px 0;
+
+        & img {
+            width: 75px;
+        }
+
+        & span {
+            color: #1677ff;
+            cursor: pointer;
+        }
+    }
+}
