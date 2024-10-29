@@ -67,6 +67,11 @@ const items = [
         img: Ligue1,
     },
     {
+        key: "erediv",
+        label: "荷甲",
+        img: Ligue1,
+    },
+    {
         key: "bl",
         label: "德甲",
         img: BL,
